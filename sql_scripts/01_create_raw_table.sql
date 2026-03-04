@@ -1,0 +1,25 @@
+create schema if not exists telco_customer;
+
+CREATE TABLE telco_customer.churn_data_raw (
+    "customerID" TEXT,
+    "gender" TEXT,
+    "SeniorCitizen" TEXT,
+    "Partner" TEXT,
+    "Dependents" TEXT,
+    "tenure" TEXT,
+    "PhoneService" TEXT,
+    "MultipleLines" TEXT,
+    "InternetService" TEXT,
+    "OnlineSecurity" TEXT,
+    "OnlineBackup" TEXT,
+    "DeviceProtection" TEXT,
+    "TechSupport" TEXT,
+    "StreamingTV" TEXT,
+    "StreamingMovies" TEXT,
+    "Contract" TEXT,
+    "PaperlessBilling" TEXT,
+    "PaymentMethod" TEXT,
+    "MonthlyCharges" TEXT,
+    "TotalCharges" TEXT,
+    "Churn" TEXT
+);
